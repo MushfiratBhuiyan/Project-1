@@ -1,0 +1,41 @@
+* { font-family: 'Times New Roman', Times, serif;
+font-size: 19px;
+margin: 0;
+padding: 0;
+
+}
+nav{
+    background: rgb(32, 167, 32);
+}
+ul{
+    list-style-type: none;
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: rgb(32, 167, 32);
+}
+nav ul li:hover ul {
+    position: absolute;
+    display: block;
+}
+a {
+    display: block;
+    padding: 11px 50px;
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+
+}
+a:hover {
+    background: black;
+    color: white;
+}
+
